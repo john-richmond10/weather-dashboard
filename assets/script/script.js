@@ -22,8 +22,8 @@ let search = function (event) {
 
     if (city) {
         getCurrentReport(city);
-        cityEl.value = "";
-        currentCity = "";
+        // cityEl.value = "";
+        // currentCity = "";
 
         let cityBtn = city;
         let cityBtnEl = document.createElement("button");
@@ -194,5 +194,6 @@ let clearHistory = function () {
     document.location.reload()
 };
 
-userSearchEl.addEventListener('submit', search);
+userSearchEl.addEventListener('click', search);
 loadPrev();
+

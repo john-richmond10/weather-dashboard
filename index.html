@@ -20,16 +20,20 @@
         <div class="col s3">
             <h4>Search for a City:</h4>
             <div class="center-align input-field">
-                <input placeholder="Boston" id="city" type="text" class="validate">
-                <a class="waves-effects waves-light btn">Search</a>
+                <input placeholder="Boston" id="city-search" type="text" class="validate">
+                <a class="waves-effects waves-light btn" id="user-search">Search</a>
             </div>
             <div class="divider"></div>
-            <div class="center-align" id="pastSearch"></div>
+            <div class="center-align" id="search-history"></div>
+            <button class="waves-effect waves-light btn" id="clear-history">Clear History</button>
         </div>
         
         <div class="col s9">
-            <div id="todaysWeather"></div>
-            <div id="fiveDayForecast"></div>
+            <div id="current-weather"></div>
+            <div>
+                <h2 id="five-day"></h2>
+                <div id="forecast-container"></div>
+            </div>
         </div>
     </div>
 </body>

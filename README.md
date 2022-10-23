@@ -16,6 +16,8 @@
 
 This is a useful site to search cities to see what the current weather is and to get a five day forecast!
 
+See the live page [here](https://john-richmond10.github.io/weather-dashboard/)
+
 ## [Installation](#installation)
 
 Clone the github repo!

@@ -22,8 +22,8 @@ let search = function (event) {
 
     if (city) {
         getCurrentReport(city);
-        // cityEl.value = "";
-        // currentCity = "";
+        cityEl.value = "";
+        currentCity = "";
 
         let cityBtn = city;
         let cityBtnEl = document.createElement("button");
